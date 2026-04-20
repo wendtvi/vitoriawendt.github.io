@@ -8,85 +8,73 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #ffffff;
+      background-color: #ffffff;
+      color: #1a1a1a;
     }
-
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 20px 40px;
-      border-bottom: 1px solid #333;
+      border-bottom: 1px solid #e0e0e0;
     }
-
     nav a {
       margin-left: 20px;
       text-decoration: none;
-      color: #ccc;
+      color: #555;
       font-weight: 500;
     }
-
     nav a:hover {
-      color: #fff;
+      color: #000;
     }
-
     .container {
       display: flex;
       padding: 40px;
       gap: 40px;
     }
-
     .sidebar {
       width: 250px;
     }
-
     .profile-pic {
       width: 200px;
       height: 200px;
       border-radius: 50%;
       object-fit: cover;
-      border: 2px solid #444;
+      border: 2px solid #ccc;
     }
-
     .name {
       font-size: 22px;
       margin-top: 20px;
       font-weight: bold;
+      color: #1a1a1a;
     }
-
     .role {
-      color: #aaa;
+      color: #666;
       margin-bottom: 20px;
     }
-
     .info {
       font-size: 14px;
       line-height: 1.8;
-      color: #ccc;
+      color: #444;
     }
-
     .main {
       flex: 1;
     }
-
     h1 {
       font-size: 32px;
       margin-bottom: 20px;
+      color: #1a1a1a;
     }
-
     p {
-      color: #ccc;
+      color: #444;
       line-height: 1.6;
       max-width: 800px;
     }
-
     @media (max-width: 768px) {
       .container {
         flex-direction: column;
         align-items: center;
       }
-
       .sidebar {
         width: 100%;
         text-align: center;
@@ -95,7 +83,6 @@
   </style>
 </head>
 <body>
-
   <header>
     <div><strong>Vitória Wendt</strong></div>
     <nav>
@@ -104,14 +91,11 @@
       <a href="#">CV</a>
     </nav>
   </header>
-
   <div class="container">
     <div class="sidebar">
       <img src="IMG_3427.jpeg" alt="Foto" class="profile-pic">
-
       <div class="name">Vitória Wendt</div>
       <div class="role">PhD Candidate</div>
-
       <div class="info">
         📍 São Paulo, Brazil<br>
         🏫 Insper<br>
@@ -121,7 +105,6 @@
         🎓 Google Scholar
       </div>
     </div>
-
     <div class="main">
       <h1>About me</h1>
       <p>
@@ -132,6 +115,5 @@
       </p>
     </div>
   </div>
-
 </body>
 </html>
