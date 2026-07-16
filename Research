@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitória Wendt - Research</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    nav a.active {
+      color: #000;
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 4px;
+    }
+    .container {
+      display: flex;
+      padding: 40px;
+      gap: 40px;
+    }
+    .sidebar {
+      width: 250px;
+    }
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ccc;
+    }
+    .name {
+      font-size: 22px;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #1a1a1a;
+    }
+    .role {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .info {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #444;
+    }
+    .main {
+      flex: 1;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #1a1a1a;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      color: #1a1a1a;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 8px;
+    }
+    p {
+      color: #444;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+    .paper {
+      margin-bottom: 28px;
+      max-width: 800px;
+    }
+    .paper-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #1a1a1a;
+      margin-bottom: 4px;
+    }
+    .paper-meta {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 8px;
+      font-style: italic;
+    }
+    .paper-abstract {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+    .paper-links {
+      margin-top: 8px;
+      font-size: 13px;
+    }
+    .paper-links a {
+      color: #555;
+      text-decoration: none;
+      margin-right: 16px;
+      border: 1px solid #ccc;
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+    .paper-links a:hover {
+      color: #000;
+      border-color: #999;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .sidebar {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Vitória Wendt</strong></div>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="sidebar">
+      <img src="ima1.png" alt="Foto" class="profile-pic">
+      <div class="name">Vitória Wendt</div>
+      <div class="role">PhD Candidate</div>
+      <div class="info">
+        📍 São Paulo, Brazil<br>
+        🏫 Insper<br>
+        ✉️ vitoriawendt@gmail.com<br>
+        🐦 Twitter<br>
+        💻 wendtvi<br>
+        🎓 Google Scholar
+      </div>
+    </div>
+    <div class="main">
+      <h1>Research</h1>
+      <p>
+        My research interest is Theoretical Econometrics.
+      </p>
+
+      <h2>Working Papers</h2>
+
+      <div class="paper">
+        <div class="paper-title">Title of your working paper</div>
+        <div class="paper-meta">With Co-author Name (if any) — Submitted / Under review, 2026</div>
+        <div class="paper-abstract">
+          Short abstract or one-paragraph summary of the paper goes here. Describe the research
+          question, the method, and the main contribution in a few sentences.
+        </div>
+        <div class="paper-links">
+          <a href="#">PDF</a>
+          <a href="#">Abstract</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <div class="paper-title">Title of another working paper</div>
+        <div class="paper-meta">Solo-authored — Draft available on request</div>
+        <div class="paper-abstract">
+          Short abstract or one-paragraph summary of the paper goes here.
+        </div>
+        <div class="paper-links">
+          <a href="#">PDF</a>
+        </div>
+      </div>
+
+      <h2>Work in Progress</h2>
+
+      <div class="paper">
+        <div class="paper-title">Title of ongoing project</div>
+        <div class="paper-meta">With Co-author Name (if any)</div>
+        <div class="paper-abstract">
+          One or two sentences describing what the project is about and its current stage.
+        </div>
+      </div>
+
+      <h2>Publications</h2>
+
+      <div class="paper">
+        <div class="paper-title">Title of published paper</div>
+        <div class="paper-meta">Journal Name, Year</div>
+        <div class="paper-abstract">
+          Short abstract or summary of the published paper.
+        </div>
+        <div class="paper-links">
+          <a href="#">Published version</a>
+          <a href="#">PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
